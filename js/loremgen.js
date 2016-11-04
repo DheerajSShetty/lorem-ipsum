@@ -1,17 +1,3 @@
-var paraHtml = ["<p>I think the big problem this country has is being politically correct. I've been challenged by so many people, and I don't frankly  have time for total political correctness. And to be honest with you, this country doesn't have time either.</p>",
-"One thing about television, it brings out personality. People are able to watch me in action. They hear my voice and see my eyes. There's nothing I can hide. That's me. Television brings out your flaws, your weaknesses, your strengths, and you truths. The audience either likes you or it doesn't.",
-"I actually don't have a bad hairline."];
-
-var paraNonHtml = ["abc", "efg", "hij"];
-
-var wordsNonHtml = ["voice", "country", "ice"];
-
-var wordsHtml = ["<p>voice</p>", "<h>country</h>", "<a>ice</a>"];
-
-var lettersNonHtml = ["I", "j"];
-
-var lettersHtml = ["<", "/", ">"];
-
 $('#ipsumForm').submit(function(event) {
   var type;
   var num = document.getElementById("howmany").value;
@@ -21,12 +7,12 @@ $('#ipsumForm').submit(function(event) {
   {
     if (html === true) {
        for (i = 0; i < num; ++i) {
-          temp += paraHtml[i % 3];
+          temp += paraHtml[i % 4];
           temp += "\n\n";
        }
     } else {
        for (i = 0; i < num; ++i) {
-          temp += paraNonHtml[i % 3];
+          temp += paraNonHtml[i % 4];
           temp += "\n\n";
        }
     }
@@ -35,12 +21,12 @@ $('#ipsumForm').submit(function(event) {
   {
     if (html === true) {
        for (i = 0; i < num; ++i) {
-          temp += wordsHtml[i % 3];
+          temp += wordsHtml[i % 7];
           temp += "\n\n";
        }
     } else {
        for (i = 0; i < num; ++i) {
-          temp += wordsNonHtml[i % 3];
+          temp += wordsNonHtml[i % 7];
           temp += "\n\n";
        }
     }
@@ -54,7 +40,7 @@ $('#ipsumForm').submit(function(event) {
        }
     } else {
        for (i = 0; i < num; ++i) {
-          temp += lettersNonHtml[i % 3];
+          temp += lettersNonHtml[i % 10];
           temp += "\n\n";
        }
     }
