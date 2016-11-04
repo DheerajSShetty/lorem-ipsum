@@ -1,5 +1,5 @@
 body {
-    background-image: url("file:Vmware-Wallpaper.jpg");
+    background-image: url("/css/Vmware-Wallpaper.jpg");
     background-size: cover; 
     background-position: center center;   
     color: white;
@@ -26,7 +26,7 @@ label
 height: 500px;
 width: 645px;
 overflow-y: scroll;
-background-image: url("file:wikileaks1.jpeg");
+background-image: url("/css/wikileaks1.jpeg");
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
