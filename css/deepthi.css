@@ -1,9 +1,10 @@
 body {
+    background-image: url("file:background.png");
     background-color: #7E8F7C;
-    color: #3B3738;
+    color: white;
 }
 h1 {
-color: white; background: teal; FONT-FAMILY: arial, helvetica, lucida-sans, sans-serif; FONT-SIZE: 18pt; FONT-STYLE: normal; FONT-VARIANT: normal
+   FONT-FAMILY:Courier New ; FONT-SIZE: 32pt; FONT-STYLE: italic; FONT-WEIGHT: bold;
 }
 h3 {
     font: bold italic 24px sans-serif;
@@ -11,4 +12,12 @@ h3 {
 p { text-align: justify; font: 18px sans-serif }
 
 p1 { text-align: center ; font: bold 22px sans-serif }
+label
+{
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: Courier New;
+    font-style: italic;
+}
 
