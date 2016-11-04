@@ -16,10 +16,9 @@ To run on AWS
 
 1)Expo port 80 in docker file
 
-2)dockerrun.AWS.json file is required to run docker on AWS
+2)Dockerrun.aws.json file is required to run docker on AWS
 
 3)Perform eb init, eb create and eb deploy
-  eb deploy will provide the UI web page on AWS
   
-4)Use eb status to monitor the deployment
+4)Use eb status to monitor the deployment and to obtain the url
 
