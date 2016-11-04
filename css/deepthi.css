@@ -24,10 +24,23 @@ label
 .fill{
 height: 500px;
 width: 645px;
+#background-image: url("file:wikileaks.jpg");
+background-size: contain;
 }
 #display1{
 width: 350px
 }
 #inputNumber{
 padding-top: 30px;
+}
+#submitButton{
+background-color: black;
+height: 40px;
+width: 80px;
+border-radius: 5px;
+}
+
+#buttonClass{
+padding-top: 20px;
+padding-left: 240px;
 }
