@@ -8,3 +8,5 @@ ADD 404.html /www/
 
 RUN mkdir /www/css
 ADD css/ /www/css
+
+EXPOSE 80
