@@ -21,11 +21,14 @@ label
     font-family: Courier New;
     font-style: italic;
 }
+
 .fill{
 height: 500px;
 width: 645px;
-#background-image: url("file:wikileaks.jpg");
+background-image: url("file:wikileaks.jpg");
 background-size: contain;
+opacity: 0.5;
+overflow-y: scroll;
 }
 #display1{
 width: 350px
