@@ -25,10 +25,15 @@ label
 .fill{
 height: 500px;
 width: 645px;
-background-image: url("file:wikileaks.jpg");
-background-size: contain;
-opacity: 0.5;
 overflow-y: scroll;
+background-image: url("file:wikileaks1.jpeg");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+#outputtext{
+color: black;
+FONT-FAMILY:Courier New ; FONT-SIZE: 12pt; FONT-WEIGHT: bold; 
 }
 #display1{
 width: 350px
